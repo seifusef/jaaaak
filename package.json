@@ -1,0 +1,42 @@
+{
+  "dependencies": {
+    "@expo/vector-icons": "^14.0.4",
+    "@nestjs/config": "^3.3.0",
+    "@nestjs/jwt": "^10.2.0",
+    "@nestjs/passport": "^10.0.3",
+    "@nestjs/typeorm": "^10.0.2",
+    "@react-native-async-storage/async-storage": "^2.1.0",
+    "@react-native-community/netinfo": "^11.4.1",
+    "@react-navigation/bottom-tabs": "^7.2.0",
+    "@react-navigation/native": "^7.0.14",
+    "@react-navigation/stack": "^7.1.1",
+    "axios": "^1.7.9",
+    "bcrypt": "^5.1.1",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "expo-image-picker": "^16.0.4",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "pg": "^8.13.1",
+    "react-native-maps": "^1.20.1",
+    "react-native-safe-area-context": "^5.1.0",
+    "react-native-screens": "^4.5.0",
+    "socket.io-client": "^4.8.1",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/node": "^22.10.6",
+    "@types/passport-jwt": "^4.0.1",
+    "@types/react": "^18.3.18",
+    "@types/react-native": "^0.72.8",
+    "@types/socket.io-client": "^1.4.36",
+    "typescript": "^5.7.3"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "build": "tsc"
+  }
+}
